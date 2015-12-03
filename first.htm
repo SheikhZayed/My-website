@@ -1,0 +1,26 @@
+<html>
+<head><title>Fibonacci Numbers</title>
+  <body>
+    <script type = text/javascript>
+    var a=0,b=1,c=0;
+    var n = prompt("Enter a Number:"," ");
+    if(n!=null && n>0)
+    {
+      document.write("First " + n +  "Fibonacci nos are ");
+      if(n==1)
+      document.write(1);
+      else {
+        for(i=3;i<=n;i++){
+        document.write(c);
+        c=a+b;
+        a=b;
+        b=c;
+}
+   }
+    }
+    else {
+      alert("No proper input");
+    }
+    </script>
+  </head>
+  </html>
